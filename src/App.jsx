@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black flex items-center justify-center px-4">
       {!isSubmitted ? (
-        <div className="bg-gray-900 rounded-2xl p-6 md:p-8 max-w-sm w-full">
+        <div className="bg-[#252d37] rounded-2xl p-6 md:p-8 max-w-sm w-full">
           <div className="bg-gray-800 rounded-full w-10 h-10 flex items-center justify-center mb-6">
             <img src={star} alt="Star icon" className="w-4 h-4" />
           </div>
@@ -48,7 +48,7 @@ function App() {
           
           <button
             onClick={handleSubmit}
-            className="w-full bg-orange-500 hover:bg-white hover:text-orange-500 text-white uppercase tracking-wider py-3 rounded-full font-medium transition-colors duration-200"
+            className="w-full bg-orange-500 hover:bg-white hover:text-[#121417] text-[#121417] uppercase tracking-wider py-3 rounded-full font-medium transition-colors duration-200"
           >
             Submit
           </button>
